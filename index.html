@@ -20,17 +20,17 @@
         </ul>
     </nav>
 
-    <section id="about">
+    <section id="about" class="tab-content">
         <h2>Sobre Mí</h2>
         <p>Aquí puedes escribir una breve descripción sobre ti, tus habilidades y tu experiencia.</p>
     </section>
 
-    <section id="portfolio">
+    <section id="portfolio" class="tab-content">
         <h2>Portafolio</h2>
         <p>Agrega enlaces a tus proyectos, ejemplos de trabajo, o cualquier cosa que quieras mostrar.</p>
     </section>
 
-    <section id="contact">
+    <section id="contact" class="tab-content">
         <h2>Contacto</h2>
         <p>Puedes contactarme a través de:</p>
         <ul>
@@ -39,5 +39,23 @@
             <li><a href="https://www.instagram.com/tu_perfil" target="_blank">Instagram</a></li>
         </ul>
     </section>
+    <script>
+        const tabs = document.querySelectorAll('nav a');
+        const tabContents = document.querySelectorAll('.tab-content');
+
+        tabs.forEach((tab, index) => {
+            tab.addEventListener('click', (event) => {
+                event.preventDefault();
+                tabContents.forEach((content, i) => {
+                    if (i === index) {
+                        content.style.display = 'block';
+                    } else {
+                        content.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+
 </body>
 </html>
