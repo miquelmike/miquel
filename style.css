@@ -34,7 +34,8 @@ nav a {
     font-size: 1.2em;
 }
 
-section {
+.tab-content {
+    display: none;
     padding: 20px;
 }
 
@@ -45,3 +46,4 @@ section h2 {
 }
 
 /* Estilos adicionales según tus preferencias */
+
