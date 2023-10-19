@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi Página de Inicio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        img.perfil {
+            height: 250px;
+            width: 250px;
+            float: left;
+            margin: 20px 20px 20px 0; /* Margen en la parte superior, derecha e inferior (sin margen a la izquierda) */
+            padding: 10px;
+        }
+        section, h2 {
+            margin: 30px 0; /* Margen en la parte superior e inferior de cada sección e iframe */
+            padding: 10px;
+        }
+        p {
+            margin-left: 30px;
+        }
+        .clear {
+            clear: both; /* Limpia los flotantes */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a Mi Página de Inicio</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#acerca">Acerca de</a></li>
+            <li><a href="#cv">CV</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="inicio">
+            <h2>Inicio</h2>
+            <p style="text-align: justify;">Bienvenido a mi página de inicio. Esta es la sección de inicio, donde podrás conocer más sobre mí y mi trayectoria en el mundo de la informática.</p>
+            <p style="text-align: justify;">Como estudiante de ASIX (Asistencia de Sistemas Informáticos en Red) en el INS Nicolau Copèrnic, estoy comprometido con el aprendizaje y la evolución en la tecnología.</p>
+            <p style="text-align: justify;">Si deseas saber más sobre mis experiencias y logros, o si tienes alguna pregunta, no dudes en contactarme. Estoy emocionado por la posibilidad de conectar con otros profesionales y aprender de sus experiencias.</p>
+        </section>
+        <section id="acerca">
+            <h2>Acerca de Mí</h2>
+            <img class="perfil" src="perfil.jpg" alt="Mi imagen de perfil">
+            <p style="text-align: justify;">¡Hola! Soy Giuseppe, un estudiante de ASIX (Asistencia de Sistemas Informáticos en Red) en el INS Nicolau Copèrnic. Actualmente, estoy realizando prácticas DUAL en una emocionante empresa llamada Estamp.</p>
+            <p style="text-align: justify;">Me apasiona la tecnología y la informática, y estoy emocionado de aprender y crecer en este campo en constante evolución. Durante mis prácticas, he tenido la oportunidad de aplicar mis conocimientos en situaciones del mundo real y adquirir experiencia valiosa en el ámbito de la informática.</p>
+            <p style="text-align: justify;">Además de mis estudios y trabajo, disfruto de la resolución de problemas, la programación y la exploración de nuevas tecnologías. Siempre estoy en busca de desafíos interesantes y oportunidades para aprender y crecer profesionalmente.</p>
+            <p style="text-align: justify;">Si tienes alguna pregunta o deseas conocer más sobre mi trabajo y experiencia, ¡no dudes en contactarme! Estoy ansioso por conectarme con otros profesionales de la tecnología y aprender de su experiencia.</p>
+        </section>
+        <section id="cv" style="clear: both;">
+            <h2>Currículum</h2>
+            <iframe src="CV_Giuseppe_Vega_cieza.pdf" width="100%" height="600"></iframe>
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p style="text-align: justify; margin-top: 15px; margin-bottom: 15px;">Gmail: vecigvc@gmail.com</p>
+            <p style="text-align: justify; margin-top: 15px; margin-bottom: 15px;">Tel: 671984995</p>
+            <p style="text-align: justify; margin-top: 15px; margin-bottom: 15px;">
+                <a href="https://www.linkedin.com/in/giuseppe-vega-cieza-24559b279/" target="_blank">LinkedIn</a>
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Giuseppe Vega</p>
+    </footer>
+</body>
+</html>
