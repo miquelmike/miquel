@@ -19,6 +19,7 @@ body {
     background-repeat: no-repeat;
     color: #fff;
     background-color: #333; /* Agrega el color de fondo deseado */
+    border-radius: 15px; /* Ajusta el radio de las esquinas para hacerlas redondas */
 }
 
 /* ... el resto de tu código CSS ... */
