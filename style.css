@@ -4,7 +4,7 @@ body {
     padding: 0;
     background-image: url('alcanzala-tranquilidad-pastoral-9oitratl6gd996za.jpg');
     background-size: 100% 100%; /* Ajusta el tamaño de la imagen al 100% de la altura y la anchura del cuerpo */
-    background-position: center; /* Centra la imagen de fondo */
+    background-position: 0 0; /* Centra la imagen de fondo */
     background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
     color: #fff;
 }
